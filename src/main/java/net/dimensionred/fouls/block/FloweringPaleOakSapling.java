@@ -3,9 +3,9 @@ package net.dimensionred.fouls.block;
 import net.minecraft.block.SaplingBlock;
 import net.minecraft.block.SaplingGenerator;
 
-public class FlowerinPaleOakSapling extends SaplingBlock {
+public class FloweringPaleOakSapling extends SaplingBlock {
 
-    public FlowerinPaleOakSapling(SaplingGenerator generator, Settings settings) {
+    public FloweringPaleOakSapling(SaplingGenerator generator, Settings settings) {
         super(generator, settings);
     }
 

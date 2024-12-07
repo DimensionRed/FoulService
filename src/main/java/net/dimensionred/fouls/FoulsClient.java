@@ -20,6 +20,8 @@ public class FoulsClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(FoulsItems.PALE_OAK_LEAVES_CARPET, RenderLayer.getCutoutMipped());
         BlockRenderLayerMap.INSTANCE.putBlock(FoulsItems.PALE_PETALS, RenderLayer.getCutoutMipped());
         BlockRenderLayerMap.INSTANCE.putBlock(FoulsItems.FLOWERING_PALE_OAK_SAPLING, RenderLayer.getCutoutMipped());
+        BlockRenderLayerMap.INSTANCE.putBlock(FoulsItems.POTTED_FLOWERING_PALE_OAK_SAPLING, RenderLayer.getCutoutMipped());
+
 
         ParticleFactoryRegistry.getInstance().register(FoulsParticleTypes.PALE_FLOWER_PETALS, LeavesParticle.PaleOakLeavesFactory::new);
     }

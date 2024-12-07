@@ -16,6 +16,8 @@ public class FoulsComposting {
         CompostingChanceRegistry.INSTANCE.add(FoulsItems.FLOWERING_LEAVES_CARPET,0.3F);
         CompostingChanceRegistry.INSTANCE.add(FoulsItems.PALE_OAK_LEAVES_CARPET,0.3F);
         CompostingChanceRegistry.INSTANCE.add(FoulsItems.PALE_PETALS,0.3F);
+        CompostingChanceRegistry.INSTANCE.add(FoulsItems.FLOWERING_PALE_OAK_SAPLING,0.3F);
+
 
     }
 }

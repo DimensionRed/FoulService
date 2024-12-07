@@ -2,9 +2,10 @@ package net.dimensionred.fouls.item;
 
 
 import net.dimensionred.fouls.Fouls;
+import net.dimensionred.fouls.block.FloweringPaleOakLeaves;
 import net.dimensionred.fouls.block.FoulsCarpetBlock;
+import net.dimensionred.fouls.block.FoulsPottedFlowerBlock;
 import net.dimensionred.fouls.block.FruitLeavesBlock;
-import net.dimensionred.fouls.block.PaleOakLeavesBlock;
 import net.dimensionred.fouls.misc.FoulsFoodComponents;
 import net.dimensionred.fouls.world.tree.FoulsSaplingGenerators;
 import net.minecraft.block.*;
@@ -49,8 +50,8 @@ public class FoulsItems {
 
     public static final Block FLOWERING_PALE_OAK_LEAVES = registerBlock(
             "flowering_pale_oak_leaves",
-            PaleOakLeavesBlock::new,
-            PaleOakLeavesBlock.createSettings()
+            FloweringPaleOakLeaves::new,
+            FloweringPaleOakLeaves.createSettings()
     );
     public static final Block GREEN_FRUIT_LEAVES = registerBlock(
             "green_fruit_leaves",
@@ -90,6 +91,13 @@ public class FoulsItems {
     );
 
 
+    public static final Block POTTED_FLOWERING_PALE_OAK_SAPLING = registerBlock(
+            "potted_flowering_pale_oak_sapling",
+            settings -> new FoulsPottedFlowerBlock(FLOWERING_PALE_OAK_SAPLING, settings),
+            AbstractBlock.Settings.create()
+    );
+
+
 
     public static Item registerItem(String id, Item.Settings settings) {
         Identifier item_id = Identifier.of(Fouls.MOD_ID, id);
@@ -100,6 +108,8 @@ public class FoulsItems {
         return registeredItem;
     }
 
+
+
     private static <T extends Block> T registerBlock(
             String id,
             Function<AbstractBlock.Settings, Block> factory,
@@ -109,17 +119,16 @@ public class FoulsItems {
         RegistryKey<Block> registryKey = RegistryKey.of(RegistryKeys.BLOCK, identifier);
         T block = (T) Blocks.register(registryKey, factory, settings);
 
-        Items.register(block);
+        registerBlockItem(block);
         return block;
+    }
+
+    public static void registerBlockItem(Block block){
+        Items.register(block);
     }
 
     public static void setup() {
         Fouls.LOGGER.info("[" + Fouls.MOD_ID + "] Registering items...");
-
-//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-//            entries.add(PALE_FLOWER);
-//        });
-
 
     }
 }

@@ -21,11 +21,6 @@ import java.util.Random;
 public class FoulsFoodComponents {
 
 
-    public static final ConsumableComponent FOOD = food().build();
-
-
-
-
     public static final FoodComponent SWEET_FRUIT = new FoodComponent.Builder()
             .nutrition(4)
             .saturationModifier(0.3F)
