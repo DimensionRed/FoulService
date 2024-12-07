@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "fouls:pale_flower",
+    "fouls:pale_flower"
+  ],
+  "result": {
+    "id": "fouls:pale_petals",
+    "count": 1
+  }
+}
