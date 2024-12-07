@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "fouls:green_fruit"
+  ],
+  "result": {
+    "id": "fouls:venom_flask",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "fouls:block/pale_flowerbed_1",
+  "textures": {
+    "flowerbed": "fouls:block/pale_petals",
+    "stem": "fouls:block/pale_petals_stem"
+  }
+}

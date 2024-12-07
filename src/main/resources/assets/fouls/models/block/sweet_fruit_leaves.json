@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fouls:block/sweet_fruit_leaves"
+  }
+}

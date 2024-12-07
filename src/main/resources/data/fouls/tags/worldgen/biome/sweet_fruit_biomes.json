@@ -1,0 +1,19 @@
+{
+  "values": [
+    "minecraft:mushroom_fields",
+    "minecraft:meadow",
+    "minecraft:cherry_grove",
+    "minecraft:forest",
+    "minecraft:flower_forest",
+    "minecraft:birch_forest",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:jungle",
+    "minecraft:sparse_jungle",
+    "minecraft:bamboo_jungle",
+    "minecraft:river",
+    "minecraft:mangrove_swamp",
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "minecraft:lush_caves"
+  ]
+}

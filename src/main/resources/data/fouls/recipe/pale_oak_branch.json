@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:pale_oak_log",
+    "minecraft:pale_oak_log"
+  ],
+  "result": {
+    "id": "fouls:pale_oak_branch",
+    "count": 4
+  }
+}

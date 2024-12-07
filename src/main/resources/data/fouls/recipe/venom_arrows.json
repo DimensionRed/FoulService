@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AVA",
+    "AAA"
+  ],
+  "key": {
+    "A": [
+      "minecraft:arrow"
+    ],
+    "V": [
+      "fouls:venom_flask"
+    ]
+  },
+  "result": {
+    "id": "minecraft:tipped_arrow",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:poison",
+        "custom_color": 8775183
+      }
+    },
+    "count": 8
+  }
+}

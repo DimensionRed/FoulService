@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+    "wool": "fouls:block/flowering_pale_oak_leaves"
+  }
+}

@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "fouls",
+	"version": "${version}",
+	"name": "Foul Service",
+	"description": "Pale garden is a quite scary place, yet very serene. What if there was the place just as serene but friendly?",
+	"authors": [
+		"DimensionRed"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/fouls/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.dimensionred.fouls.Fouls"
+		],
+		"fabric-datagen": [
+			"net.dimensionred.fouls.FoulsDataGenerator"
+		],
+		"client": [
+			"net.dimensionred.fouls.FoulsClient"
+		]
+	},
+	"mixins": [
+		"fouls.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

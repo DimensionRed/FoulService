@@ -1,0 +1,24 @@
+{
+  "itemgroup.fouls.fouls_items": "[Fouls] Items",
+  "itemgroup.fouls.fouls_blocks": "[Fouls] Blocks",
+
+  "item.fouls.pale_flower": "Pale Flower",
+  "item.fouls.green_fruit": "Green Fruit",
+  "item.fouls.sweet_fruit": "Sweet Fruit",
+  "item.fouls.pale_oak_branch": "Pale Oak Branch",
+  "item.fouls.venom_flask": "Venom Flask",
+  "item.fouls.sweet_pie": "Sweet Pie",
+
+  "block.fouls.flowering_pale_oak_leaves": "Flowering Pale Oak Leaves",
+  "block.fouls.green_fruit_leaves": "Green Fruit Leaves",
+  "block.fouls.sweet_fruit_leaves": "Sweet Fruit Leaves",
+  "block.fouls.flowering_pale_oak_leaves_carpet": "Flowering Pale Oak Leaves Carpet",
+  "block.fouls.pale_oak_leaves_carpet": "Pale Oak Leaves Carpet",
+  "block.fouls.pale_petals": "Pale Petals",
+  "block.fouls.flowering_pale_oak_sapling": "Flowering Pale Oak Sapling",
+
+  "item.minecraft.potion.effect.nausea": "Potion of Nausea",
+  "item.minecraft.lingering_potion.effect.nausea": "Lingering Potion of Nausea",
+  "item.minecraft.splash_potion.effect.nausea": "Splash Potion of Nausea",
+  "item.minecraft.tipped_arrow.effect.nausea": "Arrow of Nausea"
+}
