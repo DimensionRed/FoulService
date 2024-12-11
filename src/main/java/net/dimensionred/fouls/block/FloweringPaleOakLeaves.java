@@ -36,6 +36,7 @@ public class FloweringPaleOakLeaves extends LeavesBlock {
     private final SimpleParticleType petals = FoulsParticleTypes.PALE_FLOWER_PETALS;
     private final int spawn_chance = 20;
     private final int cycle_chance = 99;
+    private final int growup_chance = 20;
     public static final IntProperty AGE = Properties.AGE_7;
 
     public static Block.Settings createSettings() {
@@ -85,12 +86,12 @@ public class FloweringPaleOakLeaves extends LeavesBlock {
 
     @Override
     protected boolean hasRandomTicks(BlockState state) {
-        return true;
+        return !state.get(LeavesBlock.PERSISTENT);
     }
 
     @Override
     protected void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
-        if (random.nextInt(cycle_chance) > 69) {
+        if (random.nextInt(cycle_chance) > (cycle_chance - growup_chance)) {
             cycleLeaves(state, world, pos);
         }
     }
@@ -169,4 +170,6 @@ public class FloweringPaleOakLeaves extends LeavesBlock {
 
         return super.onUseWithItem(stack, state, world, pos, player, hand, hit);
     }
+
+
 }

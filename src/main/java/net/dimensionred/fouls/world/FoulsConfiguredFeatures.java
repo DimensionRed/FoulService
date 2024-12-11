@@ -36,18 +36,6 @@ public class FoulsConfiguredFeatures {
                         ConstantIntProvider.create(0)),
                         new ThreeLayersFeatureSize(1, 1, 0, 1, 2, OptionalInt.empty()))).ignoreVines().build());
 
-//        ConfiguredFeatures.register(context, FLOWERING_PALE_OAK_DECOR_KEY, Feature.TREE,
-//                (new TreeFeatureConfig.Builder(BlockStateProvider.of(Blocks.PALE_OAK_LOG),
-//                        new DarkOakTrunkPlacer(6, 2, 1),
-//                        BlockStateProvider.of(FoulsItems.FLOWERING_PALE_OAK_LEAVES),
-//                        new DarkOakFoliagePlacer(ConstantIntProvider.create(0),
-//                        ConstantIntProvider.create(0)),
-//                        new ThreeLayersFeatureSize(1, 1, 0, 1, 2, OptionalInt.empty())))
-//                        .decorators(ImmutableList.of(new PaleMossTreeDecorator(0.15F, 0.4F, 0.8F),
-//                                new CreakingHeartTreeDecorator(1.0F)))
-//                        .ignoreVines()
-//                        .build());
-
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
