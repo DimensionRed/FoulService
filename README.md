@@ -17,15 +17,61 @@ Pale garden has its own spooky vibe, making the silense of the biome quite unner
 
 Orchard Pack adds
 
+- New biome
 - New decorative and functional blocks
+- New items
 - New food items
 - Nausea effect as a potion
+- Oakling potion effect (scare the Creaking away)
 - New pale petals particle
 
 More new features to come in the future additional packs!
+<br>
+<details>
+<summary><b>Features - Orchard Pack</b></summary>
+
+```
+Flowering Pale Oak Leaves - new leaves type that drops Pale Flower, Flowering Pale Oak Sapling and Pale Oak Branch. Can naturally grow or be bonemealed to fruit variant of the leaves. Leaves placed by a player don't grow fruits naturally.
+
+Green Fruit Leaves - the leaves variant you get when Flowering Pale Oak Leaves bear fruits in an unsuitable biome. (too hot ot too cold) Drops Green Fruit
+
+Green Fruit Leaves - the leaves variant you get when Flowering Pale Oak Leaves bear fruits in a suitable biome. (warm biomes) Drops Sweet Fruit
+
+Pale Oak Leaves Carpet and Flowering Pale Oak Leaves Carpet - decorative block, crafted with the respective leaves type.
+
+Thorns - cobweb-like block that hurts similar to Sweet Berry Bush. Instantly broken with shears.
+
+
+Pale Flower - used to make light-gray dye, Pale Petals, Suspicious stew with Resistance and Fragrant base potion variant
+
+Green Fruit - nauseating fruit used to make Venom Flask and Nausea Potion with Fragrant potion variant.
+
+Sweet Fruit - a fruit that grants regeneration. Used to make Sweet Fruit Pie which bears the similar effect.
+
+Pale Oak Branch - can be crafted with two Pale Oak Logs. Used to make Thorns and Oakling potion with Fragrant potion variant.
+
+Venom Flask - combined with 8 arrows makes them tipped with poison.
+
+
+Oakling potion effect - the Creakings will try their best to keep some distance from you.
+
+```
+
+</details>
+
+---
+## **Pale Orchard**
+![Pale Orchard](https://cdn.modrinth.com/data/cached_images/7e9a4a2c3259bb58efc540ae2b0d69c5b7448188.jpeg)
+<br>
+Here grows the orchard of the blooming pale oak, where ghostly white leaves shed delicate petals. The ground is carpeted with fallen pale foliage, pale moss, and pale petals. Much like in the Pale Garden, no mobs spawn here, but music still plays.
+
 
 ---
 
+## **Requirements**
+
+Foul Service requires [TerraBlender](https://modrinth.com/mod/terrablender) to properly spawn the new biome in the Overworld.
+---
 ## **Translations**
 
 Should you wish to offer translation of this mod, you can make a pull request on GitHub with the translated language file. Your help will be much appreciated, while the translators will definetly be credited!
