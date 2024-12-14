@@ -8,6 +8,7 @@ import java.util.Optional;
 
 public class FoulsSaplingGenerators {
 
-    public static final SaplingGenerator FLOWERING_PALE_OAK = new SaplingGenerator(Fouls.MOD_ID + ":flowering-pale_oak",
+    public static final SaplingGenerator FLOWERING_PALE_OAK = new SaplingGenerator(Fouls.MOD_ID + ":flowering_pale_oak",
             Optional.of(FoulsConfiguredFeatures.FLOWERING_PALE_OAK_KEY), Optional.empty(), Optional.empty());
+
 }

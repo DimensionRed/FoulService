@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LL",
+    "LL"
+  ],
+  "key": {
+    "L": [
+      "fouls:pale_oak_branch"
+    ]
+  },
+  "result": {
+    "id": "fouls:thorns",
+    "count": 2
+  }
+}

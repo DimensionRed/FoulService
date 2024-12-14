@@ -18,11 +18,13 @@ public class FoulsRegistryDataGenerator extends FabricDynamicRegistryProvider {
 
         entries.addAll(registries.getOrThrow(RegistryKeys.CONFIGURED_FEATURE));
         entries.addAll(registries.getOrThrow(RegistryKeys.PLACED_FEATURE));
+        entries.addAll(registries.getOrThrow(RegistryKeys.BIOME));
+
     }
 
     @Override
     public String getName() {
-        return "";
+        return "World generation";
     }
 
 }

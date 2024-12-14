@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:fouls/found_orchard",
+  "criteria": {
+    "got_long_oakling": {
+      "conditions": {
+        "effects": {
+          "fouls:long_oakling": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    },
+    "got_oakling": {
+      "conditions": {
+        "effects": {
+          "fouls:oakling": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.fouls.oakling.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "fouls:pale_oak_branch"
+    },
+    "title": {
+      "translate": "advancement.fouls.oakling.name"
+    }
+  },
+  "requirements": [
+    [
+      "got_oakling",
+      "got_long_oakling"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

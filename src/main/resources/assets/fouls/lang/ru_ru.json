@@ -1,0 +1,64 @@
+{
+  "itemgroup.fouls.fouls_items": "[Fouls] Предметы",
+  "itemgroup.fouls.fouls_blocks": "[Fouls] Блоки",
+
+  "item.fouls.pale_flower": "Бледный цветок",
+  "item.fouls.green_fruit": "Зелёный плод",
+  "item.fouls.sweet_fruit": "Сладкий плод",
+  "item.fouls.pale_oak_branch": "Ветвь бледного дуба",
+  "item.fouls.venom_flask": "Образец яда",
+  "item.fouls.sweet_pie": "Пирог из сладких плодов",
+
+  "block.fouls.flowering_pale_oak_leaves": "Листья цветущего бледного дуба",
+  "block.fouls.green_fruit_leaves": "Листья зелёных плодов",
+  "block.fouls.sweet_fruit_leaves": "Листья сладких плодов",
+  "block.fouls.flowering_pale_oak_leaves_carpet": "Опавшие листья цветущего бледного дуба",
+  "block.fouls.pale_oak_leaves_carpet": "Опавшие листья бледного дуба",
+  "block.fouls.pale_petals": "Бледные лепестки",
+  "block.fouls.flowering_pale_oak_sapling": "Саженец цветущего бледного дуба",
+  "block.fouls.potted_flowering_pale_oak_sapling": "Саженец цветущего бледного дуба в горшке",
+  "block.fouls.thorns": "Шипастая изгородь",
+
+  "item.minecraft.potion.effect.nausea": "Зелье тошноты",
+  "item.minecraft.lingering_potion.effect.nausea": "Туманное зелье тошноты",
+  "item.minecraft.splash_potion.effect.nausea": "Взрывное зелье тошноты",
+  "item.minecraft.tipped_arrow.effect.nausea": "Стрела тошноты",
+
+  "item.minecraft.potion.effect.fragrant": "Ароматное зелье",
+  "item.minecraft.lingering_potion.effect.fragrant": "Ароматное туманное зелье",
+  "item.minecraft.splash_potion.effect.fragrant": "Ароматное взрывное зелье",
+  "item.minecraft.tipped_arrow.effect.fragrant": "Обработанная стрела",
+  "item.minecraft.potion.effect.oakling": "Зелье защиты древача",
+  "item.minecraft.lingering_potion.effect.oakling": "Туманное зелье защиты древача",
+  "item.minecraft.splash_potion.effect.oakling": "Взрывное зелье защиты древача",
+  "item.minecraft.tipped_arrow.effect.oakling": "Стрела защиты древача",
+  "item.minecraft.potion.effect.long_oakling": "Зелье защиты древача",
+  "item.minecraft.lingering_potion.effect.long_oakling": "Туманное зелье защиты древача",
+  "item.minecraft.splash_potion.effect.long_oakling": "Взрывное зелье защиты древача",
+  "item.minecraft.tipped_arrow.effect.long_oakling": "Стрела защиты древача",
+
+  "effect.fouls.oakling": "Древач",
+  "effect.fouls.oakling.desc": "Скрипуны постараются держатсья от вас подальше",
+  "effect.fouls.long_oakling": "Древач",
+  "effect.fouls.long_oakling.desc": "Скрипуны постараются держатсья от вас подальше",
+
+  "biome.fouls.pale_orchard": "Бледно-фруктовый сад",
+
+  "advancement.fouls.root.name": "Foul Service",
+  "advancement.fouls.root.desc": "Начало вашего пути",
+
+  "advancement.fouls.orchard.name": "Тихие холмы",
+  "advancement.fouls.orchard.desc": "Войдите в биом Бледно-фруктового сада",
+
+  "advancement.fouls.thorns.name": "По ту сторону изгороди",
+  "advancement.fouls.thorns.desc": "Получить урон от шипастой изгороди",
+
+  "advancement.fouls.green_fruit.name": "Ещё совсем зелёный",
+  "advancement.fouls.green_fruit.desc": "Получить зелёный плод или вырастить его в неблагоприятном биоме",
+
+  "advancement.fouls.sweet_fruit.name": "Плоды труда",
+  "advancement.fouls.sweet_fruit.desc": "Получить сладкий плод или вырастить его в благоприятном биоме",
+
+  "advancement.fouls.oakling.name": "Им лучше бежать",
+  "advancement.fouls.oakling.desc": "Получите эффект защиты древача, дабы отпугивать Скрипунов"
+}

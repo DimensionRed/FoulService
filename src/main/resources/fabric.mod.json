@@ -3,13 +3,15 @@
 	"id": "fouls",
 	"version": "${version}",
 	"name": "Foul Service",
-	"description": "Pale garden is a quite scary place, yet very serene. What if there was the place just as serene but friendly?",
+	"description": "Pale garden is a quite scary place, yet very serene. What if there was another place just as serene but friendly?",
 	"authors": [
-		"DimensionRed"
+		"DimensionRed",
+		"Big shout-out to @ModdingByKaupenjoe on YouTube for his tutorials!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/project/foul-service",
+		"sources": "https://github.com/DimensionRed/FoulService",
+		"issues": "https://github.com/DimensionRed/FoulService/issues"
 	},
 	"license": "All Rights Reserved",
 	"icon": "assets/fouls/icon.png",
@@ -23,6 +25,9 @@
 		],
 		"client": [
 			"net.dimensionred.fouls.FoulsClient"
+		],
+		"terrablender": [
+			"net.dimensionred.fouls.world.biome.FoulsTerrablender"
 		]
 	},
 	"mixins": [

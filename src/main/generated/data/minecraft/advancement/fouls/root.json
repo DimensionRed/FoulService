@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "got_dirt": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dirt"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "translate": "advancement.fouls.root.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "fouls:pale_flower"
+    },
+    "title": {
+      "translate": "advancement.fouls.root.name"
+    }
+  },
+  "requirements": [
+    [
+      "got_dirt"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

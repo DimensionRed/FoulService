@@ -17,9 +17,49 @@
   "block.fouls.pale_petals": "Pale Petals",
   "block.fouls.flowering_pale_oak_sapling": "Flowering Pale Oak Sapling",
   "block.fouls.potted_flowering_pale_oak_sapling": "Potted Flowering Pale Oak Sapling",
+  "block.fouls.thorns": "Thorns",
 
   "item.minecraft.potion.effect.nausea": "Potion of Nausea",
   "item.minecraft.lingering_potion.effect.nausea": "Lingering Potion of Nausea",
   "item.minecraft.splash_potion.effect.nausea": "Splash Potion of Nausea",
-  "item.minecraft.tipped_arrow.effect.nausea": "Arrow of Nausea"
+  "item.minecraft.tipped_arrow.effect.nausea": "Arrow of Nausea",
+
+  "item.minecraft.potion.effect.fragrant": "Fragrant Potion",
+  "item.minecraft.lingering_potion.effect.fragrant": "Fragrant Lingering Potion",
+  "item.minecraft.splash_potion.effect.fragrant": "Fragrant Splash Potion",
+  "item.minecraft.tipped_arrow.effect.fragrant": "Tipped Arrow",
+  "item.minecraft.potion.effect.oakling": "Potion of Oakling",
+  "item.minecraft.lingering_potion.effect.oakling": "Lingering Potion of Oakling",
+  "item.minecraft.splash_potion.effect.oakling": "Splash Potion of Oakling",
+  "item.minecraft.tipped_arrow.effect.oakling": "Arrow of Oakling",
+  "item.minecraft.potion.effect.long_oakling": "Potion of Oakling",
+  "item.minecraft.lingering_potion.effect.long_oakling": "Lingering Potion of Oakling",
+  "item.minecraft.splash_potion.effect.long_oakling": "Splash Potion of Oakling",
+  "item.minecraft.tipped_arrow.effect.long_oakling": "Arrow of Oakling",
+
+  "effect.fouls.oakling": "Oakling",
+  "effect.fouls.oakling.desc": "Creakings will try to keep some distance from you",
+  "effect.fouls.long_oakling": "Oakling",
+  "effect.fouls.long_oakling.desc": "Creakings will try to keep some distance from you",
+
+  "biome.fouls.pale_orchard": "Pale Orchard",
+
+  "advancement.fouls.root.name": "Foul Service",
+  "advancement.fouls.root.desc": "Pale Orchard Awakens...",
+
+  "advancement.fouls.orchard.name": "Silent Hills",
+  "advancement.fouls.orchard.desc": "Enter the Pale Orchard",
+
+  "advancement.fouls.thorns.name": "Feeling Thorny?",
+  "advancement.fouls.thorns.desc": "Get hit by thorns",
+
+  "advancement.fouls.green_fruit.name": "Immature",
+  "advancement.fouls.green_fruit.desc": "Obtain a green fruit or grow one in an unsuitable biome",
+
+  "advancement.fouls.sweet_fruit.name": "Fruits of labor",
+  "advancement.fouls.sweet_fruit.desc": "Obtain a sweet fruit or grow one in a suitable biome",
+
+  "advancement.fouls.oakling.name": "You better run!",
+  "advancement.fouls.oakling.desc": "Use the potion of Oakling to scare the Creaking away"
+
 }

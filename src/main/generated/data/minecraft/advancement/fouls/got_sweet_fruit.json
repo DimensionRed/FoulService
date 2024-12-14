@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:fouls/found_orchard",
+  "criteria": {
+    "got_sweet_fruit": {
+      "conditions": {
+        "items": [
+          {
+            "items": "fouls:sweet_fruit"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.fouls.sweet_fruit.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "fouls:sweet_fruit"
+    },
+    "title": {
+      "translate": "advancement.fouls.sweet_fruit.name"
+    }
+  },
+  "requirements": [
+    [
+      "got_sweet_fruit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

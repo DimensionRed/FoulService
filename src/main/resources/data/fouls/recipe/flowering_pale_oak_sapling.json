@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:pale_oak_sapling",
+    "fouls:pale_flower",
+    "fouls:pale_oak_branch"
+  ],
+  "result": {
+    "id": "fouls:flowering_pale_oak_sapling",
+    "count": 1
+  }
+}

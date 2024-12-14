@@ -1,9 +1,11 @@
 package net.dimensionred.fouls;
 
+import net.dimensionred.fouls.advancement.FoulsAdvancements;
 import net.dimensionred.fouls.datagen.FoulsBlockTagProvider;
 import net.dimensionred.fouls.datagen.FoulsRegistryDataGenerator;
 import net.dimensionred.fouls.world.FoulsConfiguredFeatures;
 import net.dimensionred.fouls.world.FoulsPlacedFeatures;
+import net.dimensionred.fouls.world.biome.FoulsBiomes;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryBuilder;
@@ -16,6 +18,8 @@ public class FoulsDataGenerator implements DataGeneratorEntrypoint {
 
 		pack.addProvider(FoulsBlockTagProvider::new);
 		pack.addProvider(FoulsRegistryDataGenerator::new);
+		pack.addProvider(FoulsAdvancements::new);
+
 
 
 	}
@@ -25,6 +29,6 @@ public class FoulsDataGenerator implements DataGeneratorEntrypoint {
 
 		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, FoulsConfiguredFeatures::bootstrap);
 		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, FoulsPlacedFeatures::bootstrap);
-
+		registryBuilder.addRegistry(RegistryKeys.BIOME, FoulsBiomes::boostrap);
 	}
 }

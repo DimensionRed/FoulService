@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:fouls/found_orchard",
+  "criteria": {
+    "got_green_fruit": {
+      "conditions": {
+        "items": [
+          {
+            "items": "fouls:green_fruit"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.fouls.green_fruit.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "fouls:green_fruit"
+    },
+    "title": {
+      "translate": "advancement.fouls.green_fruit.name"
+    }
+  },
+  "requirements": [
+    [
+      "got_green_fruit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -28,6 +28,7 @@ public class FoulsCreativeTabs {
                         entries.add(FoulsItems.PALE_OAK_LEAVES_CARPET);
                         entries.add(FoulsItems.PALE_PETALS);
                         entries.add(FoulsItems.FLOWERING_PALE_OAK_SAPLING);
+                        entries.add(FoulsItems.THORNS);
 
                     }))
                     .build()

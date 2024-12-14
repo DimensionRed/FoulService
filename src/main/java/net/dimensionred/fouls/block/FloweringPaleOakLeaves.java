@@ -60,6 +60,7 @@ public class FloweringPaleOakLeaves extends LeavesBlock {
 
         super(settings);
         setDefaultState(this.stateManager.getDefaultState()
+                .with(LeavesBlock.PERSISTENT, false)
                 .with(AGE, 0)
         );
     }

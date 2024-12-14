@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:fouls/root",
+  "criteria": {
+    "found_orchard": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "fouls:pale_orchard"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.fouls.orchard.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "fouls:flowering_pale_oak_leaves"
+    },
+    "title": {
+      "translate": "advancement.fouls.orchard.name"
+    }
+  },
+  "requirements": [
+    [
+      "found_orchard"
+    ]
+  ],
+  "rewards": {
+    "experience": 10
+  },
+  "sends_telemetry_event": true
+}

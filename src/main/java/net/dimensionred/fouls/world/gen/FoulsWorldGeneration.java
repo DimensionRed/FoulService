@@ -4,7 +4,7 @@ public class FoulsWorldGeneration {
 
     public static void genWorldgen(){
 
-
+        FoulsTreeGeneration.gen();
     }
 
 

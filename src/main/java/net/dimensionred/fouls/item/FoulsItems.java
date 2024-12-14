@@ -5,11 +5,16 @@ import net.dimensionred.fouls.Fouls;
 import net.dimensionred.fouls.block.FloweringPaleOakLeaves;
 import net.dimensionred.fouls.block.FoulsCarpetBlock;
 import net.dimensionred.fouls.block.FruitLeavesBlock;
+import net.dimensionred.fouls.block.ThornsBlock;
 import net.dimensionred.fouls.misc.FoulsFoodComponents;
 import net.dimensionred.fouls.world.tree.FoulsSaplingGenerators;
 import net.minecraft.block.*;
 import net.minecraft.block.piston.PistonBehavior;
+import net.minecraft.datafixer.DataFixTypes;
 import net.minecraft.item.*;
+import net.minecraft.item.equipment.ArmorMaterial;
+import net.minecraft.item.equipment.ArmorMaterials;
+import net.minecraft.item.equipment.EquipmentType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -20,6 +25,8 @@ import net.minecraft.util.Identifier;
 import java.util.function.Function;
 
 public class FoulsItems {
+
+
 
     public static final Item PALE_FLOWER = registerItem(
             "pale_flower",
@@ -60,6 +67,14 @@ public class FoulsItems {
 
 
 
+
+
+
+
+
+
+
+
     public static final Block FLOWERING_PALE_OAK_LEAVES = registerBlock(
             "flowering_pale_oak_leaves",
             id -> new FloweringPaleOakLeaves(FloweringPaleOakLeaves
@@ -95,7 +110,7 @@ public class FoulsItems {
     public static final Block PALE_PETALS = registerBlock(
             "pale_petals",
             id -> new FlowerbedBlock(AbstractBlock.Settings.create()
-                    .mapColor(MapColor.DARK_GREEN)
+                    .mapColor(MapColor.WHITE_GRAY)
                     .noCollision()
                     .sounds(BlockSoundGroup.PINK_PETALS)
                     .pistonBehavior(PistonBehavior.DESTROY)
@@ -105,6 +120,7 @@ public class FoulsItems {
             "flowering_pale_oak_sapling",
             id -> new SaplingBlock(FoulsSaplingGenerators.FLOWERING_PALE_OAK, SaplingBlock.Settings
                     .create()
+                    .mapColor(MapColor.WHITE_GRAY)
                     .sounds(BlockSoundGroup.CHERRY_SAPLING)
                     .noCollision()
                     .registryKey(FoulsItems.blockKey(id))
@@ -116,6 +132,19 @@ public class FoulsItems {
                     AbstractBlock.Settings.create()
                     .registryKey(FoulsItems.blockKey(id))
             ));
+    public static final Block THORNS = registerBlock(
+            "thorns",
+            id -> new ThornsBlock(AbstractBlock.Settings.create()
+                    .registryKey(FoulsItems.blockKey(id))
+                    .nonOpaque()
+                    .noCollision()
+                    .sounds(BlockSoundGroup.SWEET_BERRY_BUSH)
+                    .strength(8.0F)
+                    .pistonBehavior(PistonBehavior.DESTROY)
+            ));
+
+
+
 
 
 

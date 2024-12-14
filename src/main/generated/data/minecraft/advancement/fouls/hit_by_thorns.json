@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:fouls/found_orchard",
+  "criteria": {
+    "hit_by_thorns": {
+      "conditions": {
+        "block": "fouls:thorns"
+      },
+      "trigger": "minecraft:enter_block"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.fouls.thorns.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "fouls:thorns"
+    },
+    "title": {
+      "translate": "advancement.fouls.thorns.name"
+    }
+  },
+  "requirements": [
+    [
+      "hit_by_thorns"
+    ]
+  ],
+  "rewards": {
+    "experience": 10
+  },
+  "sends_telemetry_event": true
+}
