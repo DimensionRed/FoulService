@@ -9,7 +9,7 @@
 
 ## **About the mod**
 
-Pale garden has its own spooky vibe, making the silense of the biome quite unnerving. But what if I tell you, that with the help of pale garden you can make a place, where serenity is bliss and not horror?
+Pale garden has its own spooky vibe, making the silencee of the biome quite unnerving. But what if I tell you, that there is another place somewhere in the world, that is just as serene but harmless?
 
 ---
 
