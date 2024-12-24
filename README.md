@@ -1,15 +1,15 @@
 ![Foul Service Logo](https://cdn.modrinth.com/data/cached_images/fb27d8d0e2c4810ba700ee81b53b4dfbf301a471.jpeg)
 
 ![](https://img.shields.io/badge/Mod%20Loader-Fabric-blue?style=for-the-badge)
-[![Curseforge Page](https://img.shields.io/badge/Curseforge-Page-orange?style=for-the-badge&logo=curseforge "Curseforge page")]()
+[![Curseforge Page](https://img.shields.io/badge/Curseforge-Page-orange?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/minecraft/mc-mods/foul-service)
 [![Modrinth Page](https://img.shields.io/badge/Modrinth-Page-1bd96a?style=for-the-badge&logo=modrinth)](https://modrinth.com/project/foul-service)
 [![Github](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/DimensionRed/FoulService)
-[![Minecraft Inside](https://img.shields.io/badge/Minecraft--Inside-Page-violet?style=for-the-badge)]()
+[![Minecraft Inside](https://img.shields.io/badge/Minecraft--Inside-Page-violet?style=for-the-badge)](https://minecraft-inside.ru/mods/181530-fouls-service.html)
 
 
 ## **About the mod**
 
-Pale garden has its own spooky vibe, making the silencee of the biome quite unnerving. But what if I tell you, that there is another place somewhere in the world, that is just as serene but harmless?
+Pale garden has its own spooky vibe, making the silence of the biome quite unnerving. But what if I tell you, that there is another place somewhere in the world, that is just as serene but harmless?
 
 ---
 
