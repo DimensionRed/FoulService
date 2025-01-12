@@ -3,6 +3,7 @@ package net.dimensionred.fouls;
 import net.dimensionred.fouls.client.particle.FoulsParticleTypes;
 import net.dimensionred.fouls.item.FoulsCreativeTabs;
 import net.dimensionred.fouls.item.FoulsItems;
+import net.dimensionred.fouls.item.armor.FoulsEquipmentAssetKeys;
 import net.dimensionred.fouls.misc.FoulsComposting;
 import net.dimensionred.fouls.potion.FoulsPotions;
 import net.dimensionred.fouls.potion.FoulsStatusEffects;
@@ -25,6 +26,7 @@ public class Fouls implements ModInitializer {
 
 		LOGGER.info("- This is a logger for Foul Service -");
 		FoulsStatusEffects.setup();
+		FoulsEquipmentAssetKeys.setup();
 		FoulsItems.setup();
 		FoulsCreativeTabs.setup();
 		FoulsEvents.registerEvents();

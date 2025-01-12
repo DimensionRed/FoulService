@@ -18,6 +18,13 @@ repositories {
 	// for more information about repositories.
 
 	maven { url = 'https://maven.minecraftforge.net/' }
+	maven {
+		name = 'GeckoLib'
+		url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+		content {
+			includeGroup("software.bernie.geckolib")
+		}
+	}
 
 }
 
@@ -36,6 +43,7 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 	modImplementation 'com.github.glitchfiend:TerraBlender-fabric:1.21.4-4.3.0.0'
+	modImplementation "software.bernie.geckolib:geckolib-fabric-${minecraft_version}:${geckolib_version}"
 	
 }
 

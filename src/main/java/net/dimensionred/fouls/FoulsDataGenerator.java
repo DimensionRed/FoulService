@@ -2,6 +2,7 @@ package net.dimensionred.fouls;
 
 import net.dimensionred.fouls.advancement.FoulsAdvancements;
 import net.dimensionred.fouls.datagen.FoulsBlockTagProvider;
+import net.dimensionred.fouls.datagen.FoulsItemTagProvider;
 import net.dimensionred.fouls.datagen.FoulsRegistryDataGenerator;
 import net.dimensionred.fouls.world.FoulsConfiguredFeatures;
 import net.dimensionred.fouls.world.FoulsPlacedFeatures;
@@ -17,6 +18,7 @@ public class FoulsDataGenerator implements DataGeneratorEntrypoint {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(FoulsBlockTagProvider::new);
+		pack.addProvider(FoulsItemTagProvider::new);
 		pack.addProvider(FoulsRegistryDataGenerator::new);
 		pack.addProvider(FoulsAdvancements::new);
 

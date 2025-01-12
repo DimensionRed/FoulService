@@ -6,6 +6,7 @@ import net.dimensionred.fouls.block.FloweringPaleOakLeaves;
 import net.dimensionred.fouls.block.FoulsCarpetBlock;
 import net.dimensionred.fouls.block.FruitLeavesBlock;
 import net.dimensionred.fouls.block.ThornsBlock;
+import net.dimensionred.fouls.item.armor.FoulsArmorMaterials;
 import net.dimensionred.fouls.misc.FoulsFoodComponents;
 import net.dimensionred.fouls.world.tree.FoulsSaplingGenerators;
 import net.minecraft.block.*;
@@ -62,6 +63,12 @@ public class FoulsItems {
             id -> new Item(new Item.Settings()
                     .registryKey(itemKey(id))
                     .food(FoulsFoodComponents.SWEET_PIE, FoulsFoodComponents.SWEET_PIE_EFFECT)
+            ));
+
+    public static final Item FLOWER_HEADPIECE = registerItem(
+            "flower_headpiece",
+            id -> new FlowerHeadpiece(FoulsArmorMaterials.FLOWER, EquipmentType.HELMET, new Item.Settings()
+                    .registryKey(itemKey(id))
             ));
 
 

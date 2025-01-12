@@ -9,17 +9,15 @@ import net.minecraft.registry.tag.BlockTags;
 
 import java.util.concurrent.CompletableFuture;
 
-public class FoulsBlockTagProvider extends FabricTagProvider.BlockTagProvider {
+public class FoulsItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
-    public FoulsBlockTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
+    public FoulsItemTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
         super(output, registriesFuture);
     }
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        getOrCreateTagBuilder(BlockTags.LEAVES)
-                .add(FoulsItems.FLOWERING_PALE_OAK_LEAVES)
-                .add(FoulsItems.GREEN_FRUIT_LEAVES)
-                .add(FoulsItems.SWEET_FRUIT_LEAVES);
+        getOrCreateTagBuilder(FoulsItemTags.REPAIRS_FLOWER_HEADPIECE)
+                .add(FoulsItems.PALE_FLOWER);
     }
 }
